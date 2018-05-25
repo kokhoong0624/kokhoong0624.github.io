@@ -1,0 +1,74 @@
+
+/* Add colored borders and margin/padding */
+article, header, nav, section, aside, footer, .container{
+  border: 2px solid lightgrey;
+  padding: 10px;
+  margin: 5px;
+  font-family: Arial, sans-serif;
+  color: #555555;
+  box-sizing:border-box;
+}
+header{
+  border-color: salmon;
+}
+section{
+  border-color: plum;
+}
+footer{
+  border-color: darkmagenta;
+}
+aside {
+  border-color: orange;
+}
+article{
+  border-color: cornflowerblue;
+}
+nav {
+  border-color: seagreen;
+}
+
+#logo{
+  width:80px;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  margin:0;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+.container {
+  margin-top: 25vh;
+  width: 750px;
+  margin: 0 auto;
+  }
+
+article{
+  width: 500px;
+  float: left;
+}
+
+aside {
+  width: 200px;
+  float: right;
+}
+footer{
+  clear:both;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  width:100%;
+  margin:0;
+}
+
